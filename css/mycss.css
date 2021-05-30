@@ -1,0 +1,32 @@
+.fundao {
+    padding: 30px;
+    margin: 30px;
+}
+
+.ticketTop {
+    margin: 10px;
+    background-color: #6495ED;
+    border: 1px solid black;
+    width: 40%;
+    height: 150px;
+    align-content: center;
+    padding: 20px;
+}
+
+.quantidadeDeVoos {
+    background-color: darkgray;
+    position: absolute;
+    left: 5px;
+    width: 30%;
+    height: 500px;
+}
+
+.vaiProCentroFilho {
+    margin-top: 16px;
+    margin-left: 340px;
+    height: 500px;
+    width: 40%;
+    background-color: lightblue;
+}
+
+.Direita {}
