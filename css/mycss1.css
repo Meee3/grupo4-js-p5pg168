@@ -1,0 +1,91 @@
+.fundao {
+    padding: 30px;
+    margin: 30px;
+}
+
+.ticketTop {
+    padding: 2px;
+    margin: 10px;
+    background-color: #6495ED;
+    border: 1px solid black;
+    width: 40%;
+    height: 150px;
+    align-content: center;
+    padding: 20px;
+}
+
+#tabela_pai {
+    border-width: thin;
+    border-style: outset;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 13px;
+    background: #6495ED;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tabela_esquerda>td {
+    padding: 3px;
+    border-bottom: 2px solid black;
+}
+
+td>#tabela_esquerda {
+    margin-left: 5px;
+    background: white;
+    border-radius: 5px;
+    border-style: dashed;
+    border-bottom: 3px solid black;
+    border-left-width: 0;
+    border: 2px solid #aaa;
+    border-spacing: 2px;
+}
+
+td>#tabela_centro {
+    background-image: url("..");
+    border-left-width: 0;
+    margin: 2px;
+    background: white;
+    border-radius: 5px;
+    border-style: dashed;
+    border-bottom: 3px solid black;
+    border: 2px solid #aaa;
+}
+
+.qtdvoos {
+    vertical-align: baseline;
+    font-weight: bold;
+    background: #3e7ff8;
+    border-bottom: 1px solid silver;
+    text-shadow: 24px;
+}
+
+.qtdvagas {
+    font-weight: bold;
+    background: #3e7ff8;
+    border-bottom: 1px solid silver;
+    text-shadow: 25px;
+}
+
+.cliente {
+    font-weight: bold;
+    border-bottom: 1px solid silver;
+    background: #3e7ff8;
+}
+
+td>#tabela_direita {
+    margin: 3px;
+    background: white;
+    border-radius: 5px;
+    border-style: dashed;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border: 2px solid #aaa;
+}
+
+.testes1 {
+    border-bottom: 1px solid black;
+    border-width: 1px;
+    border-radius: 25px;
+}

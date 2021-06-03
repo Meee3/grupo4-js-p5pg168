@@ -4,6 +4,7 @@
 }
 
 .ticketTop {
+    padding: 2px;
     margin: 10px;
     background-color: #6495ED;
     border: 1px solid black;
@@ -13,20 +14,15 @@
     padding: 20px;
 }
 
-.quantidadeDeVoos {
-    background-color: darkgray;
-    position: absolute;
-    left: 5px;
-    width: 30%;
-    height: 500px;
+table,
+td,
+th>tickeTop {
+    margin: 2px;
+    align-items: center;
 }
 
-.vaiProCentroFilho {
-    margin-top: 16px;
-    margin-left: 340px;
-    height: 500px;
-    width: 40%;
-    background-color: lightblue;
+table,
+th,
+td {
+    border: 1px solid black;
 }
-
-.Direita {}

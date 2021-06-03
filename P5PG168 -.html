@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5PG168 Copy</title>
+    <script type="text/javascript" src="js/P5.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/mycss1.css" media="screen" />
+</head>
+
+<body onload="onLoadHTML()">
+    <div class="fundao">
+        <center>
+            <table border=2 class="ticketTop" cellpadding="5" cellspacing="5">
+                <caption>Ticket</caption>
+                <th><br> ID Usuário</th>
+                <th><br> Nº Vôo</th>
+                <tr>
+                    <td><br><input type="number" id="id_cliente" class="cliente_id"></td>
+                    <td><br><input type="number" id="n_voo" class="cliente_voo"></td>
+                </tr>
+                <tr>
+                    <td><br><input type="button" id="enviar_formulario" value="Enviar" onclick="enviarFormulario()"></td>
+                    <td><br><input type="reset" id="apagar_formulario" value="Limpar" onclick="apagarFormulario()"></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <br>
+    <center>
+        <p id="pMsg"></p>
+    </center><br>
+    <center>
+        <table border="1" width="50%" heigth="100%" id="tabela_pai">
+            <th width="40%">Quantidade de Vôos</th>
+            <th width="30%">Quantidade de Vaga</th>
+            <th width="30%">Informações do cliente</th>
+            <tr>
+                <!--Tabela a Esquerda-->
+                <td>
+                    <table width="100%" id="tabela_esquerda"></table>
+                </td>
+                <!-- Tabela no Centro-->
+                <td>
+                    <table width="100%" id="tabela_centro"></table>
+                </td>
+                <td>
+                    <table width="100%" id="tabela_direita">
+                        <th>ID Cliente</th>
+                        <th>Nº Voo</th>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+        <br><br><br>
+    </center>
+</body>
+
+</html>
